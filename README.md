@@ -1,6 +1,6 @@
 # Monster Debugger Client Library with Proxy support
 
-This copy of the [Monster Debugger](http://www.demonsterdebugger.com) client library adds support for properties of the type Proxy. Right now you can't inspect the Proxy object but support for inspecting when possible could be added in the future.
+This copy of the [Monster Debugger](http://www.demonsterdebugger.com) client library adds a safeguard for properties of the type Proxy, skipping them all together.
 
 This fork of the client library works with the official version of the Monster Debugger Adobe AIR application, completely unmodified, that can be downloaded from [demonsterdebugger.com](http://www.demonsterdebugger.com).
 
